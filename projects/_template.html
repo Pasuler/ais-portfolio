@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{TITLE}}</title>
+<meta name="description" content="{{DESC}}">
+<meta name="theme-color" content="#FAFAF7">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..600&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/site.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230F5C4A'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='16' fill='%23FAFAF7' text-anchor='middle'%3EA%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+<nav class="nav">
+  <div class="wrap nav__inner">
+    <a class="nav__brand" href="index.html">Ais Hidayatul Uyun<span>.</span></a>
+    <div class="nav__links">
+      <a href="index.html#profil">Profil</a>
+      <a href="index.html#keahlian">Keahlian</a>
+      <a href="index.html#riset">Riset</a>
+      <a href="index.html#pengalaman">Pengalaman</a>
+      <a href="index.html#sertifikat">Sertifikat</a>
+    </div>
+    <a class="nav__cta" href="index.html#kontak">Hubungi</a>
+  </div>
+</nav>
+
+<header class="ph">
+  <div class="wrap">
+    <a class="ph__back" href="index.html#riset">&larr; Semua proyek</a>
+    <span class="eyebrow">{{SPEC}}</span>
+    <h1>{{H1}}</h1>
+    <p class="ph__lead">{{LEAD}}</p>
+    <dl class="ph__meta">
+      <div><dt>Peran</dt><dd>{{ROLE}}</dd></div>
+      <div><dt>Periode</dt><dd>{{PERIOD}}</dd></div>
+      <div><dt>Institusi</dt><dd>{{ORG}}</dd></div>
+      <div><dt>Fokus</dt><dd>{{FOCUS}}</dd></div>
+    </dl>
+  </div>
+</header>
+
+<main>
+<div class="wrap detail-grid">
+  <aside class="detail-grid__aside">
+    <h4>Daftar isi</h4>
+    <ul>
+      <li><a href="#latar">Latar &amp; tujuan</a></li>
+      <li><a href="#metode">Metode</a></li>
+      <li><a href="#hasil">Hasil</a></li>
+      <li><a href="#galeri">Galeri</a></li>
+    </ul>
+  </aside>
+  <article class="prose">
+{{BODY}}
+  </article>
+</div>
+
+<section class="next-project rule-top">
+  <div class="wrap">
+    <a href="{{NEXT_HREF}}">
+      <div>
+        <span>Proyek berikutnya</span>
+        <h3>{{NEXT_T}}</h3>
+      </div>
+      <span aria-hidden="true">&rarr;</span>
+    </a>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__inner">
+    <p>&copy; 2026 Ais Hidayatul Uyun</p>
+    <p><a href="index.html#kontak">Kembali ke beranda</a></p>
+  </div>
+</footer>
+
+<script src="../assets/js/site.js" defer></script>
+</body>
+</html>
